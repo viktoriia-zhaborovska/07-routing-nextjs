@@ -6,7 +6,7 @@ import css from "./NotePreview.module.css";
 import { fetchNoteById } from "@/lib/api";
 import Modal from "@/components/Modal/Modal";
 import Loading from "@/app/loading";
-import Error from "./error";
+import Error from "../error";
 
 const NotePreviewClient = () => {
   const { id } = useParams<{ id: string }>();
